@@ -1,0 +1,14 @@
+observ1,8d9b6b8912a2ed175b77acd40cbe9a73,MD5,medium,medium,AV,FILENAME:WUC Invitation Letter Guests.doc
+observ2,76700f862a0c241b8f4b754f76957bda,MD5,high,high,AV,FILENAME:essais~.swf|NOTE:FWS type Flash file
+observ7,http://somemaliciousdomain.com/uploadfiles/upload/exp.swf?info=789c333432d333b4d4b330d133b7b230b03000001b39033b&infosize=00840000,URL,high,high,AV,IPV4ADDR:196.168.25.25
+observ8,svr01.passport.ServeUser.com,Domain,low,high,AB,TCP:80|IPV4ADDR:172.18.18.25|NOTE:Embedded EXE Remote C&C and Encoded Data
+observ9,somemaliciousdomain2.com,Domain,,low,AV,TCP:8080|IPV4ADDR:172.22.14.10
+observ10,http://www.bogusdomain.com/search?q=%24%2B%25&form=MOZSBR&pc=MOZI,URL,low,low,AB,IPV4ADDR:172.25.1.5
+observ11,http://somebogussolution.com/register/card/log.asp?isnew=-1&LocalInfo=Microsoft%20Windows%20XP%20Service%20Pack%202&szHostName=ADAM-E512679EFD&tmp3=tmp3,URL,medium,,AB,
+observ14,172.16.47.44,IP,high,medium,AB,TCP:8080
+observ15,172.16.73.69,IP,medium,medium,AV,TCP:443|NOTE:Related to Flash exploitation
+observ16,abc@def.com,mail-to,,high,AV,"NOTE:truncated; samples have appended to the subject the string ""PH000000NNNNNNN"" where NNNNNNN is a varying number"
+observ34,stamdomain.com,domain,,,AB,
+observ35,stamdomain.com,mail-from,high,medium,AV,
+observ37,xyz.com,mail-from,medium,medium,AB,
+observ38,@xyz.com,mail-from,medium,medium,AB,
